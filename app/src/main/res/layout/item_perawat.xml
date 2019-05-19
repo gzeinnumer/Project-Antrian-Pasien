@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    android:id="@+id/lnperawat"
+    >
+
+    <!--to do 22 : tambahkan apa apa yang akan ditampilkan-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/antrianID"
+        android:visibility="gone"
+        android:textSize="10dp"
+        android:fontFamily="sans-serif-condensed"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dokterID"
+        android:textSize="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:visibility="gone"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dokterName"
+        android:textSize="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:visibility="gone"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tgl"
+        android:textSize="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:visibility="gone"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jam"
+        android:textSize="10dp"
+        android:visibility="gone"
+        android:fontFamily="sans-serif-condensed"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rsid"
+        android:textSize="10dp"
+        android:visibility="gone"
+        android:fontFamily="sans-serif-condensed"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/noAntrian"
+        android:textSize="10dp"
+        android:fontFamily="sans-serif-condensed"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/noUrut"
+        android:textSize="10dp"
+        android:visibility="gone"
+        android:fontFamily="sans-serif-condensed"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/namaPasient"
+        android:textSize="10dp"
+        android:fontFamily="sans-serif-condensed"/>
+    <TextView
+        android:id="@+id/status"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
